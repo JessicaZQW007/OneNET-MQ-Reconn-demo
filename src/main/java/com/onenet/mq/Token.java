@@ -71,6 +71,6 @@ public class Token {
         String signatureMethod = SignatureMethod.SHA1.name().toLowerCase();
         String accessKey = "OKXN64I2hVzI4d6i8wM+fsLm1qfScTuLz0/23muDqsQ=";
         String token = assembleToken(version, resourceName, expirationTime, signatureMethod, accessKey);
-        System.out.println("Authorization:" + token);
+        System.out.println("ZQW:" + token);
     }
 }
