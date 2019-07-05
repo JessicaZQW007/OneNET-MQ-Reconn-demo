@@ -120,6 +120,7 @@ public class MqClient {
     }
     public static void main(String[] args) {
         MqClient mqClient = new MqClient();
+        System.out.println("lalal");
         mqClient.connect();
     }
 }
